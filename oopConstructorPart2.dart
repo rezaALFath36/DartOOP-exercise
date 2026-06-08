@@ -1,3 +1,4 @@
+//Constructor Using 'This' Keyword
 class Armor{
   String nama;
   int defense;
