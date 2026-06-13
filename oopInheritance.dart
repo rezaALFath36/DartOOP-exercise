@@ -13,7 +13,7 @@ class Hewan {
 //Inheritance using 'extends' keyword
 class Kucing extends Hewan{
 
-/*'super' in constructor, for transfering value the 'child class' (class Kucing) 
+/*'super' in CONSTRUCTOR, for transfering value the 'child class' (class Kucing) 
 got from new object to 'parent class' (class Hewan) in 'String nama'.*/
   String warnaBulu;
   Kucing(String nama, this.warnaBulu) : super(nama);
